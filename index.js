@@ -2,6 +2,7 @@
 import './style.css';
 import './variable.js';
 import './datatypes.js';
+import './getUserInfo.js';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
