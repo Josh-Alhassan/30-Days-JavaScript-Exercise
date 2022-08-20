@@ -16,3 +16,19 @@ let varOne;
 let varTwo;
 let varThree;
 let varFour;
+
+// Question 7: Declare variables to store your first name, last name, marital status, country and age in multiple lines.
+let firstName = 'Joshua';
+let secondName = 'Alhassan';
+let maritalStatus = 'single';
+let country = 'Nigeria';
+let age = 24;
+
+console.log(firstName, secondName, maritalStatus, country, age);
+
+// Question 8: Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
+const myAge = 24;
+const yourAge = 24;
+
+console.log('I am ' + myAge + ' years old');
+console.log('You are ' + yourAge + ' years old');
