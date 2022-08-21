@@ -4,6 +4,9 @@ import './variable.js';
 import './datatypes.js';
 import './getUserInfo.js';
 
+// Day 02 Imports
+import './Day-02/dataTypes.js';
+
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>Day 01 of 30 Days JavaScript</h1>`;
