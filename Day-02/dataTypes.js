@@ -179,3 +179,118 @@ console.log('This is a backslash  symbol (\\)') // To write a backslash
 console.log('In every programming language it starts with \"Hello, World!\"')
 console.log("In every programming language it starts with \'Hello, World!\'")
 console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
+
+// ##############
+// String Method
+// ##############
+
+// 1. length
+let strJS = 'JavaScript';
+console.log(strJS.length);
+
+// 2. Accessing Characters in a string
+let firstLetter = strJS[0];
+console.log(firstLetter);
+
+let lastIndex = strJS.length - 1;
+console.log(lastIndex);
+console.log(strJS[lastIndex]);
+
+// 3. toUpperCase()
+console.log(strJS.toUpperCase());
+let strFirstName = 'Joshua';
+console.log(strFirstName.toUpperCase());
+
+// 4. toLowerCase()
+let strCountry = 'Nigeria';
+console.log(strCountry.toLowerCase())
+console.log(strFirstName.toLowerCase());
+
+// 5. substr()
+console.log(strJS.substr(4,6));
+console.log(strCountry.substr(4,10));
+
+// 6. substring()
+console.log(strJS.substring(0,4));
+
+// 7. split()
+let strSentence = '30 Days of JavaScript';
+
+console.log(strSentence.split());
+console.log(strSentence.split(' '));
+
+let strCountries = ' Nigeria, Ghana, Cameroon, South Africa';
+console.log(strCountries.split());
+console.log(strCountries.split(', '))
+
+// 8. trim()
+let trmString = '   30 Days of JavaScript   ';
+console.log(trmString);
+console.log(trmString.trim(' '))
+
+// 9. includes()
+console.log(strSentence.includes('Days'))
+console.log(strSentence.includes('days')) // .includes() is case sentitive
+console.log(strSentence.includes('Script'))
+
+console.log(strCountry.includes('Nig'));
+
+// 10. replace()
+// string.replace(oldsubstring, newsubstring)
+console.log(strSentence.replace('JavaScript', 'React'));
+
+// 11. charAt(index)
+console.log(strSentence.charAt(0));
+console.log(strSentence.charAt(lastIndex))
+
+// 12. charAtCode(index) Returns ASCII NUMBER of the value
+console.log(strSentence.charCodeAt(3))
+
+// 13. indexOf()
+console.log(strSentence.indexOf('J'))
+
+// 14. lastIndexOf()
+console.log(strSentence.lastIndexOf('JavaScript'));
+
+// 15. concat(substring, substring, substring)
+let strNum = "50";
+console.log(strNum.concat("Days", "of", "JavaScript"));
+
+// 16. startsWith() - returns boolean
+// syntax
+// string.startWith(substring);
+
+let startString = 'Love is the best thing in this world';
+
+console.log(startString.startsWith('Love')) // Case sensitive
+
+// 17. endsWith()
+console.log(startString.endsWith('world'))
+console.log(startString.endsWith('World'));
+
+// 18. Search() - Returns index of the first match
+console.log(startString.search('in'))
+console.log(startString.search(/Love/gi)) 
+
+// 19. match()
+let loveJs = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+console.log(loveJs.match('love'));
+
+let pattern = /love/gi //g - means to search in the whole text, i - case sensitive
+console.log(loveJs.match(pattern))   // ["love", "love", "love"]
+
+let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'
+let regEx = /\d+/
+
+// d with escape character means d not a normal d instead acts a digit
+// + means one or more digit numbers,
+// if there is g after that it means global, search everywhere.
+
+console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
+console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
+
+// 20. repeat() - takes a number as arg and return the repeated version of the string
+
+// string.repeat(n);
+let love = 'love ';
+console.log(love.repeat(10))
