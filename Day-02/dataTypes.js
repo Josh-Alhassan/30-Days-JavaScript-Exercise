@@ -294,3 +294,27 @@ console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 // string.repeat(n);
 let love = 'love ';
 console.log(love.repeat(10))
+
+
+/*
+  Checking Data Types and Casting - 
+  Casting: Converting one data type to another data type. We use parseInt(), parseFloat(), Number(), + sign, str() When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
+*/
+
+// Changing Data Type (Casting)
+// string to int
+let numCasting = '10'
+let numInt = Number(num)
+
+console.log(numCasting)
+console.log(numInt) // 10
+
+// String to float
+// parseFloat()
+// Number()
+// Plus sign(+)
+
+let numCastFloat = '9.81'
+let numFloat = +numCastFloat
+
+console.log(numFloat) // 9.81
