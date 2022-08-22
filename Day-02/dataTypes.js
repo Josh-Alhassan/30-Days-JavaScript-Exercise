@@ -160,7 +160,7 @@ console.log(personInfoOne)
 
 // If the string length is too big it does not fit in one line. We can use the backslash character (\) at the end of each line to indicate that the string will continue on the next line.
 
-const paragraph = "My name is Joshua Alhassan. I live in Finland, Helsinki.\
+const paragraph = "My name is Joshua Alhassan. I live in Nigeria, Kogi State.\
 I am a student and I love learning. I am learning JavaScript, React, Redux, \
 Learning JavaScript now is one of the most rewarding and inspiring moment.\
 Now, we are in 2020. I am enjoying learning the 30DaysOfJavaScript challenge and \
