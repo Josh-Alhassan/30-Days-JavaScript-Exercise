@@ -136,3 +136,46 @@ console.log(numBtnZeroAndTen); // this gives: min 0 and max 10.99
 
 let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen);
 console.log(randomNumRoundToFloor); // this gives between 0 and 10
+
+
+/*
+  STRING - Strings are texts, which are under single , double, back-tick quote.
+*/
+
+// Declaring different variables of different data types
+let space = ' '
+let firstName = 'Joshua'
+let lastName = 'Alhassan'
+let country = 'Nigeria'
+let city = 'Lokoja'
+let language = 'JavaScript'
+let job = 'student'
+let strAge = 24
+
+
+let fullName =firstName + space + lastName
+let personInfoOne = fullName + '. I am ' + strAge + '. I live in ' + country; // ES5 string addition
+
+console.log(personInfoOne)
+
+// If the string length is too big it does not fit in one line. We can use the backslash character (\) at the end of each line to indicate that the string will continue on the next line.
+
+const paragraph = "My name is Joshua Alhassan. I live in Finland, Helsinki.\
+I am a student and I love learning. I am learning JavaScript, React, Redux, \
+Learning JavaScript now is one of the most rewarding and inspiring moment.\
+Now, we are in 2020. I am enjoying learning the 30DaysOfJavaScript challenge and \
+I hope you are enjoying too."
+
+console.log(paragraph)
+
+// Escape Sequence in Strings
+console.log('I am enjoying the 30 Days Of JavaScript challenge.\nDo you ?') // line break
+console.log('Days\tTopics\tExercises')
+console.log('Day 1\t3\t5')
+console.log('Day 2\t3\t5')
+console.log('Day 3\t3\t5')
+console.log('Day 4\t3\t5')
+console.log('This is a backslash  symbol (\\)') // To write a backslash
+console.log('In every programming language it starts with \"Hello, World!\"')
+console.log("In every programming language it starts with \'Hello, World!\'")
+console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
