@@ -10,7 +10,7 @@ import './Day-03/Booleans.js'
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>Day 02 of 30 Days JavaScript</h1>`;
+appDiv.innerHTML = `<h1> 30 Days JavaScript</h1>`;
 
 // Question 1 - Write a single line comment which says, comments can make code readable
 // Answer:
