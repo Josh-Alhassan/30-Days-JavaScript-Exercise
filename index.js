@@ -1,12 +1,13 @@
 // Import stylesheets
 import './style.css';
-import './variable.js';
-import './datatypes.js';
-import './getUserInfo.js';
+// import './variable.js';
+// import './datatypes.js';
+// import './getUserInfo.js';
 
 // Day 02 Imports
 // import './Day-02/dataTypes.js';
-import './Day-03/Booleans.js'
+// import './Day-03/Booleans.js'
+import './Day-03/Exercises.js'
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
