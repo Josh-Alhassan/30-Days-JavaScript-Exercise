@@ -156,3 +156,53 @@ let number = 5
 number > 0
   ? console.log(`${number} is a positive number`)
   : console.log(`${number} is a negative number`)
+
+// Date Object
+const now = new Date()
+console.log(now) 
+// We can access any date time information from the date object using the get methods
+
+// Extracting "full year" from the time object
+const fullYear = new Date();
+console.log(fullYear.getFullYear())
+
+// Getting months
+const month = new Date()
+console.log(month.getMonth()) // It returns a September, month (0-11)
+
+// Getting date
+const get_Date = new Date();
+console.log(get_Date.getDate()) // because it is the 6th day of the month
+
+// Getting Day
+const nowDate = new Date()
+console.log(nowDate.getDay())
+
+// Getting hours
+const nowHours = new Date()
+console.log(nowHours.getHours())
+
+// Getting minutes
+const minutes = new Date()
+console.log(minutes.getMinutes())
+
+// Getting time
+const nowTime = new Date()
+console.log(nowTime.getTime())
+
+// Using Date.now()
+const allSeconds = Date.now()
+console.log(allSeconds)
+
+const timeInSeconds = new Date().getTime()
+console.log(allSeconds == timeInSeconds)
+
+// Formating Date values to human readable format
+const todaysDate = new Date()
+const year = todaysDate.getFullYear()
+const currentMonth = todaysDate.getMonth() + 1;
+const date = todaysDate.getDate()
+const hours = todaysDate.getHours()
+const minute = todaysDate.getMinutes()
+
+console.log(`${date}/${currentMonth}/${year} ${hours}:${minute}`)

@@ -67,3 +67,45 @@ isRaining
   ? console.log('You need a rain coat.') 
   : console.log('No need for a rain coat')
 ```
+
+## Date Object
+Time is an important thing. In JavaScript, current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time. The following are the method we use to get date and time information from date object
+- getFullYear()
+- getMonth()
+- getDate()
+- getDay()
+- getHours()
+- getMinutes()
+- getMiliseconds()
+- getTime()
+- getDay()
+
+### Creating a time object
+The time object provides information about time once we create a time object.
+```
+const now = new Date()
+console.log(now)
+```
+
+We can access any date time information from the date object using the *get methods*
+
+*Extracting the full year from a time object*
+```
+const now = new Date()
+console.log(now.getFullYear())
+```
+### Getting time
+This method give time in miliseconds starting from January 1, 1970. It is also known as *Unix time*. We can get it in two ways:
+1. using *getTime()*
+```
+const now = new Date()
+console.log(now.getTime())
+```
+2. Using *Date.now()*
+```
+const allSeconds = Date.now()
+console.log(allSeconds)
+
+const timeInSeconds = new Date().getTime()
+console.log(allSeconds == timeInSeconds)
+```
