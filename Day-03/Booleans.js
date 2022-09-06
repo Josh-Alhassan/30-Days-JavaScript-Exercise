@@ -101,3 +101,35 @@ console.log('milk'.length == 'meat'.length)      // true
 console.log('milk'.length != 'meat'.length)      // false
 console.log('tomato'.length == 'potato'.length)  // true
 console.log('python'.length > 'dragon'.length)   // false
+
+// Logical Operators
+// && ampersand operator example
+
+const check = 4 > 3 && 10 > 5         // true && true -> true
+// const check = 4 > 3 && 10 < 5         // true && false -> false
+// const check = 4 < 3 && 10 < 5         // false && false -> false
+
+// // || pipe or operator, example
+
+// const check = 4 > 3 || 10 > 5         // true  || true -> true
+// const check = 4 > 3 || 10 < 5         // true  || false -> true
+// const check = 4 < 3 || 10 < 5         // false || false -> false
+
+//! Negation examples
+
+// let check = 4 > 3                     // true
+// let check = !(4 > 3)                  //  false
+// let isLightOn = true
+// let isLightOff = !isLightOn           // false
+// let isMarried = !false                // true
+
+// Increment Operator
+// 1. Pre-increment
+let count = 0
+console.log(++count) // 1
+console.log(count) // 1
+
+// 2. Post Increment
+let count_one = 0;
+console.log(count++) // 0
+console.log(count) // 1

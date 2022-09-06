@@ -44,3 +44,11 @@ We use comparison operators in programming to compare two values. We check if a 
 - "<=" Less than or equal to --> *x <= y*
 
 As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==
+
+### Logical operators
+The following symbols are the common logical operators: &&(ampersand), ||(pipe) and !(negation). The *&&* operator gets true only if the two operands are true. The *||* operator gets true wither of the operand is true. The ! operator negates true to false and false to true.
+
+### Increment Operator
+In JavaScript, we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+1. Pre-increment --> ++count
+2. Post-increment --> count++
