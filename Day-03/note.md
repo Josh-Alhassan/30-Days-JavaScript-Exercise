@@ -21,3 +21,14 @@ If we declare a variable and if we do not assign a value, the value will be unde
 
 ## Null
 -> null, means no value
+
+## Operators
+
+### Assignment operators
+An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
+
+### Arithmetic Operators
+Arithmetic operators are mathmatical operators: some examples
+- Basic Arithmetic Operators (+, -, *, /)
+- Modulus(%): a % b
+- Exponential(**): a ** b
