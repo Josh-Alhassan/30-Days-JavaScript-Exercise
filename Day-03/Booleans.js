@@ -144,3 +144,15 @@ console.log(decrementCount) // 1
 let decrementCount_one = 0;
 console.log(decrementCount_one--) // 0
 console.log(decrementCount_one) // 1
+
+
+// Ternary Operators
+let isRainingNow = true
+isRainingNow
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+
+let number = 5
+number > 0
+  ? console.log(`${number} is a positive number`)
+  : console.log(`${number} is a negative number`)

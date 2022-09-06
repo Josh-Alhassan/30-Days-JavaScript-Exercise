@@ -57,3 +57,13 @@ In JavaScript, we use the increment operator to increase a value stored in a var
 In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement.
 1. Pre-decrement --> --count
 2. Post-decrement --> count--
+
+### Ternary Operators
+Ternary operators allow us to write conditionals in another way
+
+```
+let isRaining = true;
+isRaining 
+  ? console.log('You need a rain coat.') 
+  : console.log('No need for a rain coat')
+```
