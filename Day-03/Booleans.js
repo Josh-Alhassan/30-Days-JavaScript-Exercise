@@ -17,3 +17,9 @@ console.log(trueValue, falseValue)
 // Undefined
 let firstName
 console.log(firstName)
+
+// Null
+let empty = null
+console.log(empty)
+
+// Operators

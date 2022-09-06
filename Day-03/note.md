@@ -19,3 +19,5 @@ A boolean data type represents one of the two values: true or false, mostly used
 ## Undefined
 If we declare a variable and if we do not assign a value, the value will be undefined. Also, if a *function()* is not returning a value, it will be undefined.
 
+## Null
+-> null, means no value
