@@ -28,3 +28,22 @@ console.log('It is ' + minutesNow.getMinutes() + 'mins past time')
 // vii. Find out the number of seconds elasped from January 1, 1970 to now
 const timeElasped = new Date()
 console.log('Time elasped from Jan 1, 1970 till now is ' + timeElasped.getTime())
+
+// Exercise 2: Level 2
+/* 1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle
+*/
+const base = prompt('Enter base: ')
+const height = prompt('Enter height: ')
+const areaOfTriangle = (0.5 * base * height);
+
+console.log('The area of the triangle is: ' + areaOfTriangle)
+
+/*
+2. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+*/
+
+const sideA = prompt('Enter side a: ')
+const sideB = prompt('Enter side b: ')
+const sideC = prompt('Enter side c: ')
+const perimeter = (sideA + sideB + sideC)
+console.log('The perimeter of the triangle is: ' + perimeter)
