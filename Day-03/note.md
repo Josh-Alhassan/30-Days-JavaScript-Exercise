@@ -32,3 +32,15 @@ Arithmetic operators are mathmatical operators: some examples
 - Basic Arithmetic Operators (+, -, *, /)
 - Modulus(%): a % b
 - Exponential(**): a ** b
+
+### Comparison Operators
+We use comparison operators in programming to compare two values. We check if a value is greater or less or equal to other value.
+- "==" Equal in value only - Equivalent --> *x == y*
+- "===" Equal in value and data type - Exactly equal --> *x === y*
+- "!=" Not equal  --> *x != y*
+- ">" Greater than --> *x > y*
+- "<" Less than   --> *x < y*
+- ">=" Greater than or equal to --> *x >= y*
+- "<=" Less than or equal to --> *x <= y*
+
+As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==
