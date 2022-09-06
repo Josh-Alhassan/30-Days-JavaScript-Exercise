@@ -52,3 +52,8 @@ The following symbols are the common logical operators: &&(ampersand), ||(pipe) 
 In JavaScript, we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
 1. Pre-increment --> ++count
 2. Post-increment --> count++
+
+### Decrement Operator
+In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement.
+1. Pre-decrement --> --count
+2. Post-decrement --> count--

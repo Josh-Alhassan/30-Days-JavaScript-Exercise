@@ -133,3 +133,14 @@ console.log(count) // 1
 let count_one = 0;
 console.log(count++) // 0
 console.log(count) // 1
+
+// Decrement operator
+// 1. Pre-decrement
+let decrementCount = 0
+console.log(--decrementCount) // 1
+console.log(decrementCount) // 1
+
+// 2. Post decrement
+let decrementCount_one = 0;
+console.log(decrementCount_one--) // 0
+console.log(decrementCount_one) // 1
