@@ -32,18 +32,30 @@ console.log('Time elasped from Jan 1, 1970 till now is ' + timeElasped.getTime()
 // Exercise 2: Level 2
 /* 1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle
 */
-const base = prompt('Enter base: ')
-const height = prompt('Enter height: ')
-const areaOfTriangle = (0.5 * base * height);
+// const base = prompt('Enter base: ')
+// const height = prompt('Enter height: ')
+// const areaOfTriangle = (0.5 * base * height);
 
-console.log('The area of the triangle is: ' + areaOfTriangle)
+// console.log('The area of the triangle is: ' + areaOfTriangle)
 
 /*
 2. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 */
 
-const sideA = prompt('Enter side a: ')
-const sideB = prompt('Enter side b: ')
-const sideC = prompt('Enter side c: ')
-const perimeter = (sideA + sideB + sideC)
-console.log('The perimeter of the triangle is: ' + perimeter)
+// const sideA = prompt('Enter side a: ')
+// const sideB = prompt('Enter side b: ')
+// const sideC = prompt('Enter side c: ')
+// const perimeter = (sideA + sideB + sideC)
+// console.log('The perimeter of the triangle is: ' + perimeter)
+
+// Exercise 3 - Level 2
+/*
+Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+*/
+const length = prompt('Enter a length value')
+const width = prompt('Enter a width value')
+
+const areaFomula = length * width;
+const perimeterFomula = (2 * (length + width));
+
+console.log('area of rectangle: ' + areaFomula, 'Perimeter of a rectangle: ' + perimeterFomula)
