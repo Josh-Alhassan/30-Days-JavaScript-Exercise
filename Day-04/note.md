@@ -14,3 +14,13 @@ Conditionals can be implemented using the following ways:
 * if else if else
 * switch
 * ternary operator
+
+## If statement
+The keyword *if* is used to check if a conditional is *true* and to execute the block code.
+
+```
+// Syntax
+if (condition) {
+  // this part of code runs for the truthy condition
+}
+```
