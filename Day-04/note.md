@@ -68,3 +68,15 @@ switch(caseValue) {
     // code
 }
 ```
+
+## Tenary Operator
+Another way to write conditionals is using the ternary operators.
+
+```
+let isRaining = true;
+  isRaining
+  ? console.log('Go get a rain coat)
+  : console.log('No need for a rain coat)
+
+```
+  

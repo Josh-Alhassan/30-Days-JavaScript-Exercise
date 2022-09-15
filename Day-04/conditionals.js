@@ -111,3 +111,9 @@ switch (true) {
   default:
     console.log('Entered value was not a number')
 }
+
+// Ternary Operator
+isRaining = true
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
