@@ -24,3 +24,30 @@ if (condition) {
   // this part of code runs for the truthy condition
 }
 ```
+
+## IF else statment
+If condition is *true* the first block will be executed. If not the else condition will executed
+
+```
+// syntax
+if (condition) {
+  // this part of code runs for truthy condition
+} else {
+  // this part of code runs for falsy condition
+}
+```
+## if else-if else
+
+```
+syntax
+if (condition) {
+  // code
+} else if (condition) {
+  //code
+} else {
+  // code
+}
+
+```
+
+
