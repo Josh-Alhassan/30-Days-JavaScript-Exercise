@@ -15,7 +15,7 @@ Conditionals can be implemented using the following ways:
 * switch
 * ternary operator
 
-## If statement
+### If statement
 The keyword *if* is used to check if a conditional is *true* and to execute the block code.
 
 ```
@@ -25,7 +25,7 @@ if (condition) {
 }
 ```
 
-## IF else statment
+### IF else statment
 If condition is *true* the first block will be executed. If not the else condition will executed
 
 ```
@@ -36,7 +36,7 @@ if (condition) {
   // this part of code runs for falsy condition
 }
 ```
-## if else-if else
+### if else-if else
 
 ```
 syntax
@@ -50,4 +50,21 @@ if (condition) {
 
 ```
 
+## Switch
+Switch is an alternative for if, else, if-else. The switch statment starts with a *switch* keyword followed by a parenthesis and code block. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to ternimate execution so the code execution does not go down after the condition is satisfied. The defualt block tuns if all the cases don't satisfy the condition.
 
+```
+switch(caseValue) {
+  case 1:
+    // code
+    break
+  case 2:
+    // code
+    break
+  case 3:
+    // code
+    break
+  default:
+    // code
+}
+```
